@@ -96,13 +96,22 @@ body {
   img {margin: auto; display: block}
 }
 
+#artwork {
+  width: 1024px;
+  height: 398px;
+  border: 1px solid rgb(137, 165, 205);
+  margin-top: 100px
+  width: 100%;
+  background-color: rgb(198, 212, 229);
+}
+
 #about_me {
     width: 1024px;
     height: 223px;
     border: 1px solid rgb(137, 165, 205);
     margin-top: 100px
     width: 100%;
-    background-color: rgb(198, 212, 229);
+    background-color: rgb(207, 216, 229);
 }
 
 
