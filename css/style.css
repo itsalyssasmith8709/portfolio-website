@@ -17,10 +17,8 @@ body {
 }
 
 #nav_box {
-    width: 1024px;
-    height: 77px;
-    border: 1px solid rgb(137, 165, 205);
-    margin-top: 100px;
+    width: 100%;
+  
     .topnav {
       background-color: #CFD8E5;
       overflow: hidden;
@@ -75,14 +73,7 @@ body {
         text-align: left;
       }
     }
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
+    
 }
 
 
@@ -108,13 +99,32 @@ body {
 #about_me {
     width: 1024px;
     height: 223px;
-    border: 1px solid rgb(137, 165, 205);
+    border: solid rgb(137, 165, 205);
     margin-top: 100px
     width: 100%;
-    background-color: rgb(207, 216, 229);
+    img {
+      width: 1024px;
+      height: 223px;
+
+    }
+p { 
+  text-align: center;
+}
 }
 
+#credits {
+  width: 1024px;
+  height: 500px;
+  border: 1px solid rgb(137, 165, 205);
+  margin-top: 100px
+  width: 100%;
+  background-color: rgb(198, 212, 229);
+  align-items: center;
+  text-align: center;
 
-h1 { 
-    color: rgb(44, 52, 69);
+}
+
+h2 { 
+    color: rgb(64, 77, 106);
+    text-align: center;
 } 
