@@ -3,7 +3,6 @@ body {
     margin: 0px;
     display: flex;
     background-color: rgb(207, 216, 229);
-    background: linear-gradient(110deg, rgb(207, 216, 229) 60%, rgb(99, 103, 150) 60%);
 }
 
 #main_container {
@@ -50,13 +49,6 @@ body {
     
     .topnav .icon {
       display: none;
-    }
-    @media screen and (max-width: 600px) {
-      .topnav a:not(:first-child) {display: none;}
-      .topnav a.icon {
-        float: right;
-        display: block;
-      }
     }
     
    
@@ -114,7 +106,7 @@ p {
 
 #credits {
   width: 1024px;
-  height: 500px;
+  height: 320px;
   border: 1px solid rgb(137, 165, 205);
   margin-top: 100px
   width: 100%;
@@ -128,3 +120,54 @@ h2 {
     color: rgb(64, 77, 106);
     text-align: center;
 } 
+
+#my-old-artwork {
+    width: 1024px;
+    height: 500px;
+    border: solid rgb(137, 165, 205);
+    margin-top: 100px
+    width: 100%;
+    text-align: center;
+    img {
+      width: 1024px;
+      height: 350px;
+
+    }
+}
+
+#fun-facts {
+    width: 1024px;
+    height: 500px;
+    border: solid rgb(137, 165, 205);
+    margin-top: 100px
+    width: 100%;
+    text-align: center;
+    img {
+      width: 400px;
+      height: 250px;
+      align-items: center;
+    }
+}
+
+p {
+  style="background-image: url(images/background-image.png);" alt="background-image" height="400px" width="900px"
+}
+
+#contact {
+    width: 1024px;
+    height: 500px;
+    border: solid rgb(137, 165, 205);
+    margin-top: 100px
+    width: 100%;
+    text-align: center;
+    img {
+      width: 90px;
+      height: 400px;
+    display: flex;
+    padding: 35px;
+
+    #h2 {
+text-align: center;
+align-items: center;
+    }
+}
